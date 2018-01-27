@@ -1,0 +1,50 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tuiste.christo.ble_playground.GestureFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/hello_blank_fragment" />
+
+    <Button
+        android:id="@+id/buttonOp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="176dp"
+        android:layout_toEndOf="@+id/buttonLinks"
+        android:text="OP" />
+
+    <Button
+        android:id="@+id/buttonLinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonOp"
+        android:layout_marginStart="48dp"
+        android:text="Links" />
+
+    <Button
+        android:id="@+id/buttonRegs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonLinks"
+        android:layout_toEndOf="@+id/buttonOp"
+        android:text="Regs" />
+
+    <Button
+        android:id="@+id/buttonAf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonLinks"
+        android:layout_toStartOf="@+id/buttonRegs"
+        android:text="AF" />
+
+</RelativeLayout>

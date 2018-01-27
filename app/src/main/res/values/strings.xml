@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BLE_Playground</string>
+
+    <!-- DeviceScanActivity -->
+    <string name="deviceScanActivity_title">Bluetooth Devices</string>
+    <string name="deviceScanActivity_bleNotSupported">Bluetooth Low Energy not supported!</string>
+    <string name="deviceScanActivity_btNotSupported">Bluetooth not supported!</string>
+    <string name="deviceScanActivity_btRequired">Bluetooth required to continue</string>
+    <string name="deviceScanActivity_unknownDevice">Unknown device</string>
+    <string name="deviceScanActivity_permissionRequired">Location Permission required to continue</string>
+
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+
+    <!-- Services Missing dialog -->
+    <string name="alertDialog_CharFault_Title">ERROR</string>
+    <string name="alertDialog_CharFault_Message">Required services not found.\nPlease reboot Key.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
